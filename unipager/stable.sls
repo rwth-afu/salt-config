@@ -5,7 +5,7 @@ unipager.repo:
     - refresh_db: true
     - clean_file: true
     - dist: unipager
-{% if network.fqdn.endswith("ampr.org") %}
+{% if grains['id'].endswith('ampr.org') %}
     - name: deb http://db0sda.ampr.org/debian unipager main
     - key_url: http://db0sda.ampr.org/debian/rwth-afu.key
 {% else %}
