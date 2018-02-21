@@ -18,3 +18,7 @@ unipager.package:
     - pkgs:
       - unipager
     - refresh: True
+
+unipager:
+  service.running:
+    - enable: True
