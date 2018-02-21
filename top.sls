@@ -1,7 +1,7 @@
 base:
   unipager:
     - match: nodegroup
-    - unipager
+    - unipager.stable
   unipager-testing:
     - match: nodegroup
-    - unipager-testing
+    - unipager.testing
